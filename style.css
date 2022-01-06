@@ -1,0 +1,138 @@
+body{
+    margin: 0;    
+    font-family: 'Inter', sans-serif;
+}
+.section{
+    display: flex;
+    width: 80%;
+    padding: 0px 30px 30px 30px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+#mission-title{
+    padding-top: 100px;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 0.7em;
+}
+h2{
+    font-size: 35px;
+    color: #333333;
+    font-weight: 900;
+    line-height: 0.7em;
+}
+.centered-text h2{
+    color: navy;
+    font-size: 40px;
+}
+p{
+    color: #3E3E3E;
+    font-weight: 400;
+    font-size: 19px;
+}
+.title-border{
+    border-left: 4px solid;
+    border-image: linear-gradient(#FF5959, #FF5959);
+    border-image-slice: 1;
+    padding-left: 10px;
+}
+span{
+    color: #FFAD5A;
+}
+.half-width{
+    width: 40%;
+    height: 400px;
+}
+.title-image{
+    margin-left: 100px;
+    width: 90%;
+}
+.link-button{
+    color: white;
+    background-color: #FF5959;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+.centered-text{
+    text-align: center;
+}
+
+.target-item{
+    width:33.33%;
+    padding: 15px 25px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.target-item img{
+    max-width: 100px;
+    max-height: 100px;
+}
+#target-mission{
+    background-color: #edf5f6;
+}
+#target-vission{
+    background-color: #FFEEEE;
+}
+#target-goal{
+    background-color: #FFF4D6;
+}
+
+#half-width-image{
+    min-width: 370px;
+    max-height: 370px;
+}
+#half-width-image-1{
+    min-width: 370px;
+    max-height: 370px;
+    margin-left: 10px;
+}
+
+.half-width-text{
+    margin-left: 90px;
+}
+.half-width-text-1{
+    margin-left: 0px;
+    margin-right: 80px;
+}
+#global-warming-title{
+    text-align: center;
+}
+
+#global-warming-image{
+    max-height: 600px;
+    max-width: 300px;
+    margin-left: 70px;
+    padding-top: 40px;
+    padding-left: 40px;
+    background-image: url(images/shapes/shape-3.png), url(images/shapes/shape-3.png), url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-position: left top, left bottom, right center;
+    background-size: 150px, 90px, 50px;
+    border-radius: 10px;
+}
+#global-warming-text{
+    padding: 50px 10px;
+    margin-left: 80px;
+}
+footer{
+    color: white;
+    background-color: #0B0D17;
+    text-align: center;
+    padding: 30px 400px;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+footer h2{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-weight: 900;
+}
+footer p{
+    color: #D9DBE1;
+    font-size: 12px;
+}
